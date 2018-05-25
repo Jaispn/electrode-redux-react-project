@@ -2,31 +2,30 @@
 > Dummpy project for beginner for electrod with redux and react
 
 ## Setup
->Clone this project
->do 
+>Clone this project and then follow following steps
+>run 
 
 ```sh
 $ npm install
 ```
 
->run 
+>then run 
 ```sh
 $ clap dev
 ```
+
+>References
+http://www.electrode.io/docs/get_started.html
+
+https://www.valentinog.com/blog/react-redux-tutorial-beginners/
+
+https://redux.js.org/basics/example-todo-list
 
 
 ## Installation
 
 ```sh
 $ npm install --save electrode-redux-react-project
-```
-
-## Usage
-
-```js
-var electrodeReduxReactProject = require('electrode-redux-react-project');
-
-electrodeReduxReactProject('Rainbow');
 ```
 ## License
 
