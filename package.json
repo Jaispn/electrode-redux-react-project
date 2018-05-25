@@ -1,0 +1,53 @@
+{
+  "name": "electrode-redux-react-project",
+  "version": "0.0.1",
+  "description": "Dummpy project for beginner for electrod with redux and react",
+  "homepage": "",
+  "author": {
+    "name": "Jai",
+    "email": "jaiiitmandi@gmail.com",
+    "url": ""
+  },
+  "contributors": [],
+  "files": [
+    "server",
+    "src",
+    "lib",
+    "dist"
+  ],
+  "main": "lib/server/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "Jaispn/electrode-redux-react-project"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "build": "clap build",
+    "prod-start": "NODE_ENV=production clap -n -x electrode/build prod",
+    "start": "if test \"$NODE_ENV\" = \"production\"; then npm run prod-start; else clap dev; fi",
+    "test": "clap check",
+    "coverage": "clap check",
+    "prod": "echo 'Starting standalone server in PROD mode'; NODE_ENV=production node ./lib/server/",
+    "heroku-postbuild": "clap build"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-archetype-react-app": "^5.0.0",
+    "electrode-confippet": "^1.0.0",
+    "electrode-react-webapp": "^2.1.0",
+    "electrode-redux-router-engine": "^1.5.0",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "lodash": "^4.10.1",
+    "prop-types": "^15.6.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app-dev": "^5.0.0"
+  }
+}
