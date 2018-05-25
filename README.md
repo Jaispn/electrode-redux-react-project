@@ -1,6 +1,20 @@
 # electrode-redux-react-project [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Dummpy project for beginner for electrod with redux and react
 
+## Setup
+>Clone this project
+>do 
+
+```sh
+$ npm install
+```
+
+>run 
+```sh
+$ clap dev
+```
+
+
 ## Installation
 
 ```sh
